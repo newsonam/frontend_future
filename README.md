@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+1) How can you implement shared functionality across a component tree?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SOLUTION:-
+we can use below given approaches
 
-## Available Scripts
+1)   Higher-Order Components (HOCs)
+   A HOC is a function that takes a component and returns a new component with additional functionality.
 
-In the project directory, you can run:
+2) Render Props
+   Render props is a technique where a component uses a function as a prop to share logic with other components.
 
-### `npm start`
+3) Context API
+   The Context API is built into React and allows you to create global variables that can be passed around the component tree.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4) Custom hooks
+   Custom hooks allow you to extract logic into reusable functions that can be shared across multiple components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5)State Management Libraries (e.g., Redux
+  Libraries like Redux or Zustand provide a way to manage the global state of your application, making it accessible across all components.
 
-### `npm test`
+  ____________________________________________________________________________________________________________________________________________________________________________________________________
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 2) Why is the useState hook appropriate for handling state in a complex component?
+solution:-
+    useState is ideal for managing state that's local to a specific component.
+    It triggers re-renders whenever the state changes, ensuring that the UI always reflects the current state.
+    It can be used multiple times within a single component, allowing you to manage multiple independent pieces of state.
+    It keeps state management simple and declarative.
+    It can optimize performance by ensuring that the initial state calculation only happens once, even in complex components.
 
-### `npm run build`
+    ___________________________________________________________________________________________________________________________________________________________________________________________________
+ Design a user interface resembling the provided page. Fetch the data from the server and dynamically map the information cards to the fetched data. Ensure that the search functionality is also implemented.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ SOLUTION ->  VIDEO DISPLAYING WORKING OF APP AND screenshots below:-
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ https://drive.google.com/file/d/14ybSH4iNvlf9alQXkDhH5vfoGBZLn3Bj/view?usp=sharing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ![Screenshot 2024-08-29 183602](https://github.com/user-attachments/assets/55f1eb89-0828-4475-bff3-398ba8bcfac9)
 
-### `npm run eject`
+ ![Screenshot 2024-08-29 183620](https://github.com/user-attachments/assets/f3b64cf4-c632-4754-a9f5-999009ea1ed2)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ ![Screenshot 2024-08-29 183629](https://github.com/user-attachments/assets/0cd5d886-ce18-4c9d-9df8-964d9b68d7c1)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ ___________________________________________________________________________________________________________________________________________________________________________________________________________
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
+ 
+ 
