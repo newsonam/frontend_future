@@ -32,7 +32,7 @@ solution:-
     ___________________________________________________________________________________________________________________________________________________________________________________________________
 3) Design a user interface resembling the provided page. Fetch the data from the server and dynamically map the information cards to the fetched data. Ensure that the search functionality is also implemented.
 
- SOLUTION ->  VIDEO DISPLAYING WORKING OF APP AND screenshots below:-
+ SOLUTION ->  VIDEO DISPLAYING WORKING OF APP (SEARCH FUNCTIONALITY IS DISPLAYED) AND screenshots below:-
 
  https://drive.google.com/file/d/14ybSH4iNvlf9alQXkDhH5vfoGBZLn3Bj/view?usp=sharing
 
