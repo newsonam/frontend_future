@@ -30,7 +30,7 @@ solution:-
     It can optimize performance by ensuring that the initial state calculation only happens once, even in complex components.
 
     ___________________________________________________________________________________________________________________________________________________________________________________________________
- Design a user interface resembling the provided page. Fetch the data from the server and dynamically map the information cards to the fetched data. Ensure that the search functionality is also implemented.
+3) Design a user interface resembling the provided page. Fetch the data from the server and dynamically map the information cards to the fetched data. Ensure that the search functionality is also implemented.
 
  SOLUTION ->  VIDEO DISPLAYING WORKING OF APP AND screenshots below:-
 
